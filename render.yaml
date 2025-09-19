@@ -8,5 +8,6 @@ services:
       - key: PORT
         value: 4000
     numInstances: 1
+    region: frankfurt
     healthCheckPath: /health/liveliness
     autoDeploy: true
